@@ -1,0 +1,122 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+hr{
+    margin: 0 8%;
+    border: none;
+    border-top: 1px solid hsl(30, 54%, 90%);
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+}
+
+div{
+    margin: 5%;
+    font-family: 'Raleway',serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    margin: 5%;
+    color: hsl(30, 10%, 34%);
+}
+
+h1{
+    text-align: left;
+    margin: 5%;
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif',serif;
+    font-weight: 400;
+}
+
+#container {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: 90%;
+    margin: 25%;
+    border-radius: 2.5%;
+
+}
+
+#prepTime span{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+#prepTime li{
+    
+    font-weight: 500;
+    margin: -2% 5%;
+    
+}
+
+#prepTime li::marker{
+    color: hsl(332, 51%, 32%);   
+    margin-right: 10%;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+#recipeImage{
+    width: 90%;
+    height:90%;
+    margin: auto;
+    
+    margin-bottom: 5%;
+    display: block;
+    
+}
+
+#prepTime{
+    width: 90%;
+    height:90%;
+    margin: auto;
+    border-radius: 5%;
+    background-color: hsl(330, 100%, 98%);
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Raleway',serif;
+    font-weight: 600;
+}
+
+#ingredients span, #instructions span, #nutrition span{
+    color: hsl(14, 45%, 36%);
+    font-size: xx-large;
+    font-family: 'Young Serif',serif;
+}
+
+#ingredients li{    
+    font-weight: 500;
+}
+
+#ingredients li::marker{
+    color: hsl(332, 51%, 32%);   
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+table{
+    text-align: left;
+    margin: 5px auto;
+    width: 90%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+tr:nth-last-child(n+2) {
+  border-bottom: 1pt solid hsl(30, 54%, 90%);
+}
+
+td{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    font-size: 16px;
+}
