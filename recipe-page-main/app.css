@@ -1,0 +1,221 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (width>801px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+
+    }
+
+    hr {
+        border-top: 1px solid hsl(30, 54%, 90%);
+        margin: 0 5%;
+    }
+
+    #container {
+        height: 55%;
+        width: 60%;
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        border-radius: 15px;
+        display: block;
+    }
+
+    span {
+        color: hsl(14, 45%, 36%);
+        font-family: "Young serif", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+        display: block;
+    }
+
+    #title {
+        color: hsl(24, 5%, 18%);
+        font-size: 50px;
+    }
+
+    #titlePrep {
+        color: hsl(332, 51%, 32%);
+        text-align: justify;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        margin: 15px 20px;
+        padding: 5px;
+    }
+
+    #recipeImage {
+        height: 90%;
+        width: 90%;
+        border-radius: 15px;
+        margin: 30px 40px;
+    }
+
+    div {
+        color: hsl(30, 10%, 34%);
+        margin: 25px 50px;
+        text-align: justify;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    #prepTimeD {
+        width: 90%;
+        height: 175px;
+        margin: 0 5;
+        border-radius: 15px;
+        background-color: hsl(330, 100%, 98%);
+    }
+
+    #timeList {
+        margin-left: 5px;
+    }
+
+    ul li::marker {
+        color: hsl(332, 51%, 32%);
+        font-size: 12px;
+    }
+
+    ul li,
+    ol li {
+        padding-left: 20px;
+        line-height: 2;
+    }
+
+    ol li::marker {
+        color: hsl(14, 45%, 36%);
+    }
+
+    table {
+        text-align: left;
+        margin: 5px auto;
+        width: 90%;
+        height: 200px;
+        border-collapse: collapse;
+    }
+
+    tr:nth-last-child(n+2) {
+        border-bottom: 1pt solid hsl(30, 54%, 90%);
+    }
+
+    td {
+        color: hsl(14, 45%, 36%);
+        font-weight: 800;
+        font-size: 16px;
+    }
+}
+
+@media (width < 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+        /* Adding padding: 0 is also good practice to ensure no default padding is applied */
+    }
+
+    hr {
+        border-top: 1px solid hsl(30, 54%, 90%);
+        margin: 0 5%;
+    }
+
+    #recipeImage {
+        height: 100%;
+        width: 100%;
+        display: grid;
+    }
+
+    #prepTimeD {
+        width: 80%;
+        height: 175px;
+        margin: 0 o;
+        border-radius: 15px;
+        background-color: hsl(330, 100%, 98%);
+    }
+
+    span {
+        color: hsl(14, 45%, 36%);
+        font-family: "Young serif", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+        display: block;
+    }
+
+    #title {
+        color: hsl(24, 5%, 18%);
+        font-size: 36px;
+    }
+
+    #titlePrep {
+        color: hsl(332, 51%, 32%);
+        text-align: justify;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        margin: 15px 20px;
+        padding-top: 15px;
+    }
+
+    div {
+        color: hsl(30, 10%, 34%);
+        margin: 25px 40px;
+        text-align: left;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    ul li::marker {
+        color: hsl(332, 51%, 32%);
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    ul li,
+    ol li {
+        padding-left: 20px;
+        line-height: 2;
+    }
+
+    ol li::marker {
+        color: hsl(14, 45%, 36%);
+
+    }
+
+    table {
+        text-align: left;
+        margin: 5px auto;
+        width: 90%;
+        height: 200px;
+        border-collapse: collapse;
+    }
+
+    tr:nth-last-child(n+2) {
+        border-bottom: 1pt solid hsl(30, 54%, 90%);
+    }
+
+    td {
+        color: hsl(14, 45%, 36%);
+        font-weight: 800;
+        font-size: 16px;
+    }
+}
