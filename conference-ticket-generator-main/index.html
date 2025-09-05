@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="app.css">
   <title>Frontend Mentor | Conference ticket generator</title>
@@ -19,24 +23,35 @@
 
 
     <div>
-
+      <div id="CC">Coding Conf</div>
+      
       <!-- Form starts -->
-      <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+      <h1>Your Journey to Coding Conf <br> 2025 Starts Here!</h1>
 
+      <h4>Secure your spot at next year's biggest coding conference.</h4>
 
-      Secure your spot at next year's biggest coding conference.
+      <form id="upForm" action="">
+        <label for="upload">Upload Avatar</label>
+        <input type="file" name="upload" id="upload" placeholder="Drag and drop or click to upload"></input>
+        <label for="uploadDown" id="uploadDown">Upload your photo (JPG or PNG, max size: 500KB).</label>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+        <label for="email" >Email Address</label>
+        <input type="email" placeholder="example@email.com" id="email" name="email">
+        <label for="gitHub">GitHub Username</label>
+        <input type="text" placeholder="@yourusername" id="gitHub" name="gitHub">
+      </form>
+      
+      
+      
 
-      Upload Avatar
-      Drag and drop or click to upload
-      Upload your photo (JPG or PNG, max size: 500KB).
+      
 
-      Full Name
+      
+      
 
-      Email Address
-      example@email.com
-
-      GitHub Username
-      @yourusername
+      
+      
 
       Generate My Ticket
 
